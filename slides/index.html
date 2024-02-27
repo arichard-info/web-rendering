@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>reveal.js</title>
+
+		<link rel="stylesheet" href="dist/reset.css">
+		<link rel="stylesheet" href="dist/reveal.css">
+		<link rel="stylesheet" href="dist/theme/white.css">
+
+		<!-- Theme used for syntax highlighted code -->
+		<link rel="stylesheet" href="plugin/highlight/monokai.css">
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section class="slide-title">
+					<h1>Méthodes de rendu sur le Web</h1>
+					<p>
+						<strong>Antoine RICHARD</strong><br>
+						<small>Développeur Fullstack @SFEIR</small>
+					</p>
+				</section>
+				<section>
+					<h2>Les méthodes de rendu</h2>
+					<div class="chips-container">
+						
+					<span class="chip fw-bold">Server-Side Rendering</span>
+					<span class="chip fw-bold">Client-Side Rendering</span>
+					<span class="chip fw-bold">Universal-Rendering</span>
+					<span class="chip fw-bold">Hydration</span>
+					<span class="chip fw-bold">Partial-Hydration</span>
+					<span class="chip fw-bold">Pre-Rendering</span>
+					<span class="chip fw-bold">Partial Pre-Rendering</span>
+				</div>
+				</section>
+			</div>
+		</div>
+
+		<script src="dist/reveal.js"></script>
+		<script src="plugin/notes/notes.js"></script>
+		<script src="plugin/markdown/markdown.js"></script>
+		<script src="plugin/highlight/highlight.js"></script>
+		<script>
+			// More info about initialization & config:
+			// - https://revealjs.com/initialization/
+			// - https://revealjs.com/config/
+			Reveal.initialize({
+				hash: true,
+
+				// Learn about plugins: https://revealjs.com/plugins/
+				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
+			});
+		</script>
+	</body>
+</html>
